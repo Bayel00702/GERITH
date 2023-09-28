@@ -1,0 +1,150 @@
+.footer{
+  padding: 349px 0 144px;
+  background: url("../image/history/3.png") center/cover no-repeat;
+  z-index: 5;
+  position: relative;
+
+  &-logo{
+    position: absolute;
+    right: 120px;
+    top: 242px;
+  }
+
+  &-text{
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #DCCA87;
+    position: relative;
+
+    &:before{
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 61px;
+      background: #DCCA8790;
+      left: 50%;
+      top: -70px;
+    }
+  }
+
+  &-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-left{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    &-title{
+      font-family: 'Cormorant Upright', serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #F5EFDB;
+    }
+
+    &-text{
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #AAAAAA;
+      margin: 24px 0 8px;
+    }
+
+    &-contacts{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+    }
+
+    &-number{
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #AAAAAA;
+    }
+  }
+
+  &-center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 228px 0 126px;
+
+    &-title{
+      font-family: 'Cormorant Upright', serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #DCCA87;
+    }
+
+    &-text{
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #FFFFFF;
+      margin: 32px 0 16px;
+    }
+
+    &-list{
+      display: flex;
+      justify-content: center;
+      column-gap: 19px;
+      margin-top: 18px;
+
+      .icon-facebook, .icon-twitter, .icon-instagram{
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  &-right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    &-title{
+      font-family: 'Cormorant Upright', serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #F5EFDB;
+      margin-bottom: 24px;
+    }
+
+    &-graphics{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+
+      &-day{
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        color: #AAAAAA;
+      }
+
+      &-time{
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        color: #AAAAAA;
+        margin-bottom: 8px;
+      }
+    }
+  }
+}

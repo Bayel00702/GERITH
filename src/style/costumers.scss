@@ -1,0 +1,92 @@
+.costumers{
+  padding: 152px 0;
+  text-align: center;
+  position: relative;
+
+  &-logo{
+    position: absolute;
+    right: 0;
+    top: -20px;
+    z-index: 30;
+  }
+
+  &-logo2{
+    position: absolute;
+    left: 197px;
+    bottom: -300px;
+    z-index: 30;
+  }
+
+  &-text{
+    font-family: 'Cormorant Upright', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+  }
+
+  &-title{
+    font-family: 'Cormorant Upright', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin-bottom: 20px;
+  }
+
+  &-row{
+    display: flex;
+    column-gap: 16px;
+    row-gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &-card{
+    width: calc(50% - 8px);
+    display: flex;
+    text-align: left;
+    align-items: center;
+    column-gap: 32px;
+
+    &-top-text{
+      font-family: 'Open Sans', serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #AAAAAA;
+    }
+
+    &-title{
+      font-family: 'Cormorant Upright', serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 130%;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #DCCA87;
+      margin: 16px 0 4px;
+    }
+
+    &-bottom-text{
+      font-family: 'Open Sans', serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #F5EFDB;
+    }
+  }
+
+}

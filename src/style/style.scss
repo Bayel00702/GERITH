@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Roboto&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;}
+
+.container{
+  margin: 0 auto;
+  max-width: 1680px;}
+
+.small-container{
+  max-width: 1300px;
+  margin: 0 auto;
+
+}
+
+body{
+  background: #201e20;
+}
+
+.history-title{
+  font-family: 'Cormorant Upright', serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  color: #DCCA87;
+  margin-bottom: 8px;
+}
+
+
+
+
+@import "header";
+@import "flavour";
+@import "history";
+@import "book";
+@import "barmenu";
+@import "drink";
+@import "chef";
+@import "rocks";
+@import "costumers";
+@import "restaurant";
+@import "our";
+@import "blogs";
+@import "photo";
+@import "forms";
+@import "footer";
+@import "us";
+@import "wide";
+@import "happy";
+@import "drinks";
+@import "find";
+@import "logo";
+

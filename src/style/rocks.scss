@@ -1,0 +1,48 @@
+.rocks{
+  padding-bottom: 85px;
+  height: calc(100% - 138px);
+  background: url("../image/chef/bg.png") center/cover no-repeat;
+  position: relative;
+  text-align: center;
+
+  &-img{
+    height: calc(100% - 259px);
+    margin:47px 0 32px;
+  }
+
+  &-title{
+    font-family: 'Cormorant Upright', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 181px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    position: absolute;
+    transform: translateX(27%);
+    top: 319px;
+  }
+
+  &-text{
+    font-family: 'Cormorant Upright', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #DCCA87;
+
+    position: relative;
+
+    &:before{
+      content: '';
+      width: 1px;
+      height: 62px;
+      background: white;
+      position: absolute;
+      top: -83px;
+      left: 50%;
+    }
+  }
+}

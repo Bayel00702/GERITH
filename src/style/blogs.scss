@@ -1,0 +1,99 @@
+.blogs{
+  padding: 152px 0;
+  text-align: center;
+  position: relative;
+
+  &-logo3{
+    position: absolute;
+    bottom: 123px;
+    right: 93px;
+  }
+  &-text{
+    font-family: 'Cormorant Upright', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+  }
+
+  &-title{
+    font-family: 'Cormorant Upright', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin: 8px 0 64px;
+  }
+
+  &-row{
+    display: flex;
+    column-gap: 32px;
+  }
+
+  &-card{
+    width: calc(33.33333% - 21.333333px);
+    text-align: left;
+
+    &-block{
+      display: flex;
+      justify-content: space-between;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #FAFAFA;
+      margin: 24px 0 32px;
+    }
+
+    &-title{
+      width: 430px;
+      font-family: 'Cormorant Upright', serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #DCCA87;
+      margin: 32px 0;
+    }
+    &-info{
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #AAAAAA;
+      margin-bottom: 32px;
+    }
+    &-read{
+      font-family: 'Cormorant Upright', serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #DCCA87;
+    }
+  }
+  &-btn{
+    font-family: 'Cormorant Upright', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    padding: 8px 32px;
+    background: #DCCA87;
+    border: none;
+    margin-top: 64px;
+  }
+
+  .card1{
+    position: relative;
+    z-index: 20;
+  }
+}

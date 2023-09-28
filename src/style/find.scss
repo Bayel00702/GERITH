@@ -1,0 +1,111 @@
+.find{
+  padding: 128px 0;
+  background: url("../image/history/3.png") center/cover no-repeat;
+
+  &-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 120px;
+  }
+
+  &-left{
+    &-text{
+      font-family: 'Cormorant Upright', serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23px;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+    }
+
+    &-title{
+      font-family: 'Cormorant Upright', serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 64px;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      color: #DCCA87;
+      margin-top: 8px;
+    }
+
+    &-subtitle{
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #AAAAAA;
+      margin: 64px 0 32px;
+    }
+
+    &-graphic{
+      display: flex;
+      flex-direction: column;
+      row-gap: 16px;
+
+      &-title{
+        font-family: 'Cormorant Upright', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        color: #DCCA87;
+      }
+
+      &-text{
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+      }
+    }
+
+    &-btn{
+      font-family: 'Cormorant Upright', serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #0C0C0C;
+      padding: 8px 32px;
+      background: #DCCA87;
+      margin-top: 64px;
+    }
+  }
+
+  &-right{
+    position: relative;
+    z-index: 10;
+    }
+
+  &-img{
+    position: relative;
+    z-index: 10;
+    }
+
+  &-right:before{
+    content: '';
+    position: absolute;
+    width: 435px;
+    height: 435px;
+    background: #DCCA87;
+    z-index: 5;
+    top: -20px;
+    right: -20px;
+  }
+
+  &-right:after{
+    content: '';
+    position: absolute;
+    width: 435px;
+    height: 435px;
+    background: #DCCA87;
+    z-index: 5;
+    bottom: -20px;
+    left: -20px;
+  }
+}

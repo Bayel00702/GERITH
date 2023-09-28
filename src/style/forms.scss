@@ -1,0 +1,83 @@
+.forms{
+  padding: 200px 0;
+  background: #201e20;
+  position: relative;
+
+  &-form{
+    padding: 64px 252px;
+    text-align: center;
+    background: #0C0C0C;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 10;
+  }
+
+  &-logo4{
+    position: absolute;
+    left: 0;
+    top: -80px;
+    z-index: 30;
+  }
+
+  &-label-input{
+    width: 635px;
+    height: 60px;
+    border: 1px solid #F5EFDB;
+    padding: 16px 18px;
+    background: transparent;
+    font-family: 'Cormorant Upright', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #AAAAAA;
+    margin-right: 32px;
+  }
+
+  &-text{
+    font-family: 'Cormorant Upright', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+  }
+
+  &-title{
+    font-family: 'Cormorant Upright', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin: 8px 0 24px;
+  }
+
+  &-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+  }
+
+  &-btn{
+    font-family: 'Cormorant Upright', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    padding: 8px 32px;
+    background: #DCCA87;
+    border: 1px solid #DCCA87;
+  }
+}

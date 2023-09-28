@@ -1,0 +1,106 @@
+.drink{
+  padding: 152px 0;
+  background: #0C0B08;
+  text-align: center;
+  &-text{
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 8px  ;
+  }
+
+  &-title{
+    font-family: 'Cormorant Upright', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+    margin: 8px 0 64px;
+  }
+
+  &-row{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    column-gap: 42px;
+  }
+  &-left{
+    display: flex;
+    flex-direction: column;
+    &-title{
+      font-family: 'Cormorant Upright', serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 45px;
+      line-height: 130%;
+      text-align: center;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #FFFFFF;
+      margin-bottom: 62px;
+    }
+
+    &-item{
+      margin-bottom: 42px;
+    }
+  }
+
+  &-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-title{
+      font-family: 'Cormorant Upright', serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 130%;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #DCCA87;
+      margin-right: 183px;
+      width: 200px;
+    }
+
+    &-price{
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 130%;
+      text-align: center;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #FFFFFF;
+      position: relative;
+      &:before{
+        content: '';
+        position: absolute;
+        background: #FFFFFF;
+        width: 119px;
+        height: 1px;
+        left: -151px;
+        top: 50%;
+      }
+    }
+
+    &-text{
+      font-family: 'Open Sans', serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 175%;
+      letter-spacing: 0.04em;
+      color: #AAAAAA;
+    }
+  }
+
+}
